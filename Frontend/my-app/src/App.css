@@ -1,0 +1,148 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.App {
+  text-align: center;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9998; /* Ensure the overlay is on top */
+}
+
+.popup-content {
+  height: 583px;
+  background: white;
+  width:853px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999; /* Ensure the popup content is on top of the overlay */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.social-button {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+      display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 39px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  color: #001eff;
+  background-color:#a1c1e3 ;
+}
+.signin-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.image1{
+  height:492px;
+    
+  width: 100%;
+}
+
+
+.message-input{
+  display: flex;
+}
+
+#imagee{
+  width:1200px;
+  height:600px;
+}
+
+
+
+
+
+#carde{
+  max-width: 1518px;
+  width: 100%;
+  height: 100px;
+}
+#rowe{
+  height: 100px;
+}
+#cole{
+  width: 89px;
+  height: 95px;
+  margin: 26px 44px;
+}
+#imagep{
+  height:53px
+}
+
+
+
+.register-image{
+  height: 410px;
+  width: 100%;
+  padding-left: 23px;
+}
+
+#card-ka-var{
+    max-width: 1361px;
+    height: 88px;
+    width: 1328px;
+    margin: auto;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+
+}
+#rowcard{
+  display:flex;
+  width:1520px
+
+}
+#columncard{
+  width:744px
+}
+#cardImage{
+  height: 560px;
+  width: 800px;
+}
+.colmd{
+  width: 760px;
+  padding-top: 48px;
+}
+
+
+
+

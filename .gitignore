@@ -1,0 +1,3 @@
+.venv/*
+Frontend/my-app/node_modules/*
+Backend/model.pkl

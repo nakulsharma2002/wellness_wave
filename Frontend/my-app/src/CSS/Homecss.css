@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    height:100px;
+    width:100%;
+    z-index: 1;
+    opacity: 0.9;
+    
+ 
+   
+}   
+.image1{
+    height:700px;
+    width:100%;
+    opacity: 0.9;
+   
+
+}
+#h1{
+    height: 700px;
+    width: 600px;
+    padding-top: 284px;
+    padding-left: 90px;
+}
+#h1 h1{
+    font-size: 50px;
+    color:red;
+    text-shadow: 2px 3px black;
+}
+
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: black;
+    width:100%;
+    height:400px;
+}
+.footerflex{
+    display: flex;
+    list-style: none;
+}
+.footerflex ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding-top: 150px;
+}
+.footerflex li{
+    font-size: 45px;
+    padding: 45px;
+    color: white;
+ 
+}
+#id-1{
+    cursor: pointer;
+}
+#id-2{
+    cursor: pointer;
+}
+#id-3{
+    cursor: pointer;
+}
+#reserved{
+    width: 100%;
+    padding-left: 372px;
+    color: white;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Chat */
+#cars:hover{
+    background-color: red;
+}
